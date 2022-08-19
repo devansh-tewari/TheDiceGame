@@ -4,41 +4,8 @@ var b = Math.random();
 a = Math.floor(a*6)+1;
 b = Math.floor(b*6)+1;
 document.querySelector(".btn").textContent="Roll Again";
-if(a===1){
-  document.querySelector(".fst img").setAttribute("src", "dice1.png");
-}
-else if(a===2){
-  document.querySelector(".fst img").setAttribute("src", "dice2.png");
-}
-else if(a===3){
-  document.querySelector(".fst img").setAttribute("src", "dice3.png");
-}
-else if(a===4){
-  document.querySelector(".fst img").setAttribute("src", "dice4.png");
-}
-else if(a===5){
-  document.querySelector(".fst img").setAttribute("src", "dice5.png");
-}
-else{
-  document.querySelector(".fst img").setAttribute("src", "dice6.png");
-}
-if(b===1){
-  document.querySelector(".scnd img").setAttribute("src", "dice1.png");
-}
-else if(b===2){
-  document.querySelector(".scnd img").setAttribute("src", "dice2.png");
-}
-else if(b===3){
-  document.querySelector(".scnd img").setAttribute("src", "dice3.png");
-}
-else if(b===4){
-  document.querySelector(".scnd img").setAttribute("src", "dice4.png");
-}
-else if(b===5){
-  document.querySelector(".scnd img").setAttribute("src", "dice5.png");
-}
-else{
-  document.querySelector(".scnd img").setAttribute("src", "dice6.png");
+document.querySelector(".fst img").setAttribute("src", "dice"+a+".png");
+document.querySelector(".scnd img").setAttribute("src", "dice"+b+".png");
 }
 if(a>b){
     document.querySelector("h1").textContent="PLAYER 1 WON";
