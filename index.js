@@ -8,7 +8,6 @@ var d = "dice"+b+".png";
 document.querySelector(".btn").textContent="Roll Again";
 document.querySelector(".fst img").setAttribute("src", c);
 document.querySelector(".scnd img").setAttribute("src", d);
-}
 if(a>b){
     document.querySelector("h1").textContent="PLAYER 1 WON";
 }
