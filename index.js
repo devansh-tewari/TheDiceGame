@@ -19,9 +19,6 @@ document.querySelector(".scnd img").setAttribute("src", d);
 if(a>b){
     document.querySelector("h1").textContent="PLAYER 1 WON";
 }
-else if(a===b){
-    document.querySelector("h1").textContent="OOPS! WE NEED A TIE-BREAKER";
-}
 else{
     document.querySelector("h1").textContent="PLAYER 2 WON";
 }
