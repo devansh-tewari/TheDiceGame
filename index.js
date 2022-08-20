@@ -1,10 +1,18 @@
 function refresh(){
+// Generate Random Numbers
 var a = Math.random();
 var b = Math.random();
 a = Math.floor(a*6)+1;
 b = Math.floor(b*6)+1;
+// Avert a Tie
+while(a===b){
+  b = Math.random();  
+  b = Math.floor(b*6)+1;
+}
+// Pulling Images from Numbers
 var c = "dice"+a+".png";
 var d = "dice"+b+".png";
+// DOM Manipulation    
 document.querySelector(".btn").textContent="Roll Again";
 document.querySelector(".fst img").setAttribute("src", c);
 document.querySelector(".scnd img").setAttribute("src", d);
