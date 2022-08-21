@@ -1,6 +1,6 @@
 var sum1=0,sum2=0;
 function check(){
-    if(sum1>=20){
+    if(sum1>=30){
       document.querySelector("h1").textContent="Player 1 Won";
       document.querySelector(".btn1").textContent="Game Over";
       document.querySelector(".btn2").textContent="Game Over";
@@ -8,7 +8,7 @@ function check(){
       document.querySelector(".btn2").disabled="true";
       document.querySelector(".spn1").textContent="Game Over, Reload to Play Again";
     }
-    if(sum2>=20){
+    if(sum2>=30){
       document.querySelector("h1").textContent="Player 2 Won";
       document.querySelector(".btn1").textContent="Game Over";
       document.querySelector(".btn2").textContent="Game Over";
