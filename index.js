@@ -23,7 +23,7 @@ var a = Math.random();
 a = Math.floor(a*6)+1;
 sum1=sum1+a;
 document.querySelector(".btn1").textContent="Roll Again";
-document.querySelector(".fst img").setAttribute("src", "images/dice"+a+".png");
+document.querySelector(".fst img").setAttribute("src", "dice"+a+".png");
 document.querySelector(".sp1").textContent=sum1;
 document.querySelector(".spn1").textContent="~ Turn of Player 2 ~";
 document.querySelector(".hey").classList
@@ -36,7 +36,7 @@ var b = Math.random();
 b = Math.floor(b*6)+1;
 sum2=sum2+b;
 document.querySelector(".btn2").textContent="Roll Again";
-document.querySelector(".scnd img").setAttribute("src", "images/dice"+b+".png");
+document.querySelector(".scnd img").setAttribute("src", "dice"+b+".png");
 document.querySelector(".sp2").textContent=sum2;
 document.querySelector(".spn1").textContent="~ Turn of Player 1 ~";
 document.querySelector(".hey").classList.toggle("dis");
