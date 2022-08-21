@@ -78,6 +78,9 @@ div{
   height:80px;
   width:80px;
 }
+.x{
+  cursor:not-allowed; 
+}
 .btn2{
   background-color: #411530;
   color: #B2A4FF;
