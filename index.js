@@ -25,6 +25,8 @@ sum1=sum1+a;
 document.querySelector(".btn1").textContent="Roll Again";
 document.querySelector(".fst img").setAttribute("src", "dice"+a+".png");
 document.querySelector(".sp1").textContent=sum1;
+document.querySelector(".btn1").classList.toggle("x");
+document.querySelector(".btn2").classList.toggle("x");
 document.querySelector(".spn1").textContent="~ Turn of Player 2 ~";
 document.querySelector(".hey").classList
 document.querySelector(".hey").classList.toggle("dis");
@@ -38,6 +40,8 @@ sum2=sum2+b;
 document.querySelector(".btn2").textContent="Roll Again";
 document.querySelector(".scnd img").setAttribute("src", "dice"+b+".png");
 document.querySelector(".sp2").textContent=sum2;
+document.querySelector(".btn1").classList.toggle("x");
+document.querySelector(".btn2").classList.toggle("x");
 document.querySelector(".spn1").textContent="~ Turn of Player 1 ~";
 document.querySelector(".hey").classList.toggle("dis");
 document.querySelector(".hey2").classList.toggle("dis");
