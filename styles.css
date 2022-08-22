@@ -9,6 +9,8 @@ p{
   font-family: 'Inconsolata', monospace;
 }
 h1{
+  display:inline-block;
+  padding: 1rem 2rem 1rem 2rem;
   font-weight: 500;
   font-size: 4.5rem;
   text-decoration: underline;
